@@ -1,7 +1,14 @@
 import React from 'react';
+import Movie from './components/Movie';
 
 function App() {
-  return <div>Hello Movie App</div>
+  const movies = ['1', '2', '3', '4', 'five'];
+
+  return <div>
+    {movies.map(movie => (
+      <Movie />
+    ))}
+  </div>
 }
 
 export default App;
