@@ -23,6 +23,7 @@ body {
   border-radius: 3px;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
   overflow: hidden;
+  position: relative;
 }
 .movie img {
   max-width: 100%;
@@ -32,4 +33,11 @@ body {
   padding: 1rem;
   align-items: center;
   justify-content: space-between;
+}
+.movie-overview {
+  background-color: #fff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
