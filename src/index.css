@@ -49,3 +49,9 @@ body {
 .movie:hover .movie-overview {
   transform: translateY(0%);
 }
+
+/*search bar customization*/
+header {
+  background-color: #373b69;
+  padding: 1rem;
+}
